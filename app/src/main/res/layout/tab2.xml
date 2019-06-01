@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05" />
+
+            <Button
+                android:id="@+id/buttonbusy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.05"
+                android:onClick="OpenBusyActivity"
+                android:text="Busy"
+                android:textAllCaps="false"
+                android:textSize="24sp" />
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05" />
+
+
+            <Button
+                android:id="@+id/buttonblocked"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.05"
+                android:onClick="OpenBlockedActivity"
+                android:text="Blocked"
+                android:textAllCaps="false"
+                android:textSize="24sp" />
+
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05" />
+
+
+        </LinearLayout>
+
+
+
